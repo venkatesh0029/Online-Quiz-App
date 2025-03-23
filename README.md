@@ -1,74 +1,67 @@
-Online Quiz App
+# 🎯 Online Quiz App
 
-📌 Project Overview
+![Quiz App](https://your-image-url.com/banner.png)  
 
-The Online Quiz App is a web-based platform that allows users to participate in quizzes, track their scores, and enhance their knowledge. This project is designed with an intuitive interface and robust backend support.
+## 📌 Project Overview
+The **Online Quiz App** is an interactive web-based platform that allows users to participate in engaging quizzes, track their scores, and enhance their knowledge. Designed with a modern UI and a robust backend, this app ensures a seamless experience for users.
 
-🚀 Features
+## ✨ Features
+✅ **User Authentication** - Secure login & signup system.  
+✅ **Quiz Management** - Create, edit, and delete quizzes.  
+✅ **Multiple-Choice Questions** - Engaging question format.  
+✅ **Timer-Based Quizzes** - Enhance challenge levels.  
+✅ **Score Tracking & Leaderboard** - Track progress and compete.  
+✅ **Mobile & Desktop Responsive** - Works smoothly on all devices.  
 
-User authentication (Login/Signup)
+## 🛠️ Tech Stack
+🚀 **Frontend:** HTML, CSS, JavaScript, React (if applicable)  
+🚀 **Backend:** Java, Spring Boot  
+🚀 **Database:** MySQL  
+🚀 **Version Control:** Git & GitHub  
 
-Create and manage quizzes
+## 🚀 Getting Started
 
-Multiple-choice questions
-
-Timer-based quizzes
-
-Score tracking and leaderboard
-
-Responsive UI for mobile and desktop
-
-🛠️ Tech Stack
-
-Frontend: HTML, CSS, JavaScript
-
-Backend: Java, Spring Boot
-
-Database: MySQL
-
-Version Control: Git & GitHub
-
-🔧 Setup Instructions
-
-Follow these steps to set up the project locally:
-
-Prerequisites
-
+### 📌 Prerequisites
 Ensure you have the following installed:
+🔹 **Java JDK 11+**  
+🔹 **MySQL Server**  
+🔹 **Apache Maven**  
+🔹 **Node.js & npm** (if frontend uses React)  
 
-Java JDK 11 or later
+### 🔧 Installation Steps
+1️⃣ **Clone the repository**
+   ```sh
+   cd Online-Quiz-App
+   ```
 
-MySQL Server
+2️⃣ **Setup Database**
+   - Create a MySQL database: `CREATE DATABASE quiz_app;`
+   - Update `application.properties` with database credentials.
 
-Apache Maven
+3️⃣ **Build & Run Backend**
+   ```sh
+   mvn clean install
+   mvn spring-boot:run
+   ```
 
-Node.js (if using React for frontend)
+4️⃣ **Run Frontend (if applicable)**
+   ```sh
+   cd frontend
+   npm install
+   npm start
+   ```
 
-Setup Database
+5️⃣ **Access the App**
+   - Backend: [http://localhost:8080](http://localhost:8080)  
+   - Frontend: [http://localhost:3000](http://localhost:3000)  
 
-Create a MySQL database: CREATE DATABASE quiz_app;
+## 🎨 UI Preview
+![App Preview](https://your-image-url.com/preview.png)
 
-Configure database credentials in application.properties
+## 📜 License
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
-Build and Run Backend
 
-mvn clean install
-mvn spring-boot:run
 
-Run Frontend (if applicable)
-
-cd frontend
-npm install
-npm start
-
-Access the App
-
-Backend: http://localhost:8080
-
-Frontend: http://localhost:3000
-
-📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
+📌 *Star the repository if you found it useful!* ⭐
 
